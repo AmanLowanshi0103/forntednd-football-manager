@@ -1,0 +1,76 @@
+.dashboard {
+  display: flex;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+/* Sidebar */
+
+.sidebar {
+  width: 30%;
+  background: #f2f2f2;
+  padding: 20px;
+  overflow-y: scroll;
+}
+
+.sidebar h2 {
+  margin-bottom: 15px;
+}
+
+.fixture {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.score {
+  font-weight: bold;
+}
+
+/* Main Section */
+
+.main {
+  width: 70%;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.header button {
+  padding: 10px 20px;
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: darkgreen;
+}
+
+/* Table */
+
+.league-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.league-table th,
+.league-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.league-table th {
+  background: #eee;
+}
